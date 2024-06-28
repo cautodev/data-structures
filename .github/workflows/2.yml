@@ -16,4 +16,4 @@ jobs:
               with:
                 python-version: '3.10' 
             - run: |
-                python -m unittest "./tests/stack_test.py"
+                python -m unittest "./tests/queue_test.py"
