@@ -17,4 +17,5 @@ jobs:
                 python-version: '3.10' 
             - run: |
                 pwd
-                python -m unittest "/tests/stack_test.py"
+                ls
+                python -m unittest "./tests/stack_test.py"
